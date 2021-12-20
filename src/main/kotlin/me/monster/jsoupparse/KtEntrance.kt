@@ -6,7 +6,8 @@ class KtEntrance {
         fun main(args: Array<String>) {
             println(System.getProperty("user.dir"))
 
-            println(Parse.parseBird("https://zh.birdpoty.com/2021-winners").toJson())
+//            println(Parse.parseBird("https://zh.birdpoty.com/2021-winners").toJson())
+            Parse.parseUnSplashDayImg()
         }
     }
 }
